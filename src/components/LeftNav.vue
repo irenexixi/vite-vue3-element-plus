@@ -84,9 +84,9 @@
                 <el-icon><box /></el-icon>
                 <span>Slot</span>
             </el-menu-item>
-            <el-menu-item index="newWorker">
+            <el-menu-item index="worker">
                 <el-icon><box /></el-icon>
-                <span>NewWorker</span>
+                <span>Worker</span>
             </el-menu-item>
         </el-menu>
     </aside>
