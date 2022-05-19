@@ -66,19 +66,27 @@
             </el-menu-item>
             <el-menu-item index="jszip">
                 <el-icon><magnet /></el-icon>
-                <span>jszip</span>
+                <span>JsZip</span>
             </el-menu-item>
             <el-menu-item index="animate">
                 <el-icon><box /></el-icon>
-                <span>animate</span>
+                <span>Animate</span>
             </el-menu-item>
             <el-menu-item index="setup">
                 <el-icon><box /></el-icon>
-                <span>setup</span>
+                <span>Setup</span>
             </el-menu-item>
             <el-menu-item index="multipleVModel">
                 <el-icon><box /></el-icon>
                 <span>MultipleVModel</span>
+            </el-menu-item>
+            <el-menu-item index="slot">
+                <el-icon><box /></el-icon>
+                <span>Slot</span>
+            </el-menu-item>
+            <el-menu-item index="newWorker">
+                <el-icon><box /></el-icon>
+                <span>NewWorker</span>
             </el-menu-item>
         </el-menu>
     </aside>

@@ -24,7 +24,7 @@
 <script setup>
 import { ref } from 'vue'
 // 自动注册子组件，直接省略了子组件注册的过程
-import Child from './SetupChild'
+import Child from './setupChild.vue'
 
 // 属性和方法无需返回
 const name = ref('CoCoy1')
