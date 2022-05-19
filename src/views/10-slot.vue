@@ -2,7 +2,7 @@
  * @Author: qqli
  * @Date: 2022-04-08 17:50:48
  * @Last Modified by: qqli
- * @Last Modified time: 2022-04-26 17:48:11
+ * @Last Modified time: 2022-05-19 18:20:40
  * @Desc: slot 作用域插槽 https://v3.cn.vuejs.org/guide/component-slots.html#%E4%BD%9C%E7%94%A8%E5%9F%9F%E6%8F%92%E6%A7%BD
  */
 <template>
@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import TodoList from './slotSub.vue'
+import TodoList from './10-slotSub.vue'
 export default {
     name: 'Slot',
     components: {

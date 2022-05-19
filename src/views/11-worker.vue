@@ -2,7 +2,7 @@
  * @Author: qqli
  * @Date: 2022-05-18 17:35:56
  * @Last Modified by: qqli
- * @Last Modified time: 2022-05-19 18:16:54
+ * @Last Modified time: 2022-05-19 18:20:21
  * @Desc: new worker demo
  * 问题：无法加载文件
  * 官网解决办法：https://cn.vitejs.dev/guide/features.html#webassembly
@@ -17,7 +17,7 @@ export default {
     name: 'Worker',
     mounted() {
         console.log('import.meta.url', import.meta.url)
-        const worker = new Worker(new URL('./foo.worker.js', import.meta.url), {
+        const worker = new Worker(new URL('./11-foo.worker.js', import.meta.url), {
             type: 'module'
         })
         console.log('xxx', worker)

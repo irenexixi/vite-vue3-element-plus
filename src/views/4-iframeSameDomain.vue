@@ -2,7 +2,7 @@
  * @Author: qqli
  * @Date: 2021-12-17 10:19:25
  * @Last Modified by: qqli
- * @Last Modified time: 2022-03-23 17:10:45
+ * @Last Modified time: 2022-05-19 18:20:48
  * @Desc: 同域iframe https://www.cnblogs.com/sunshq/p/7976966.html
  * https://developer.mozilla.org/zh-CN/docs/Web/API/Window/postMessage
  */
@@ -17,7 +17,7 @@
     <iframe
         id="iframeSameDomain"
         name="iframeSameDomain"
-        src="http://192.168.141.81:3000/#/iframeSameDomainSub">
+        src="http://192.168.141.81:3000/#/4-iframeSameDomainSub">
     </iframe>
 </template>
 

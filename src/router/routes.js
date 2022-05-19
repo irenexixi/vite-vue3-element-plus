@@ -2,7 +2,7 @@
  * @Author: qqli
  * @Date: 2021-11-11 16:35:20
  * @Last Modified by: qqli
- * @Last Modified time: 2022-05-19 18:16:31
+ * @Last Modified time: 2022-05-19 18:21:21
  * @Desc：定义一些路由，每个路由都需要映射到一个组件。
  *       路由懒加载，动态导入组件,会根据组件名打包出同名js包
  */
@@ -74,7 +74,7 @@ const routes = [
     {
         path: '/iframeSameDomainSub',
         name: 'iframeSameDomainSub',
-        component: () => import('../views/iframeSameDomainSub.vue')
+        component: () => import('../views/4-iframeSameDomainSub.vue')
     },
     {
         path: '/:pathMatch(.*)*',
