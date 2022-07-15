@@ -6,7 +6,9 @@
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
     "serve": "vite preview",
-    "lintCss": "stylelint src/**/*.{scss,vue} --fix"
+    "lintCss": "stylelint src/**/*.{scss,vue} --fix",
+    "newModal": "node ./lib/newModal.js ./src/views/ Teacher",
+    "newModule": "node ./lib/newModule.js ./srcMcn"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^0.2.7",
